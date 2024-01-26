@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- "cine" -->
+  <xs:element name="cine">
+    <xs:complexType>
+      <xs:sequence>
+        <!-- "cinemex" -->
+        <xs:element name="cinemex" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <!-- "pelicula" -->
+              <xs:element name="pelicula" type="autorType" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="titulo" type="xs:string"/>
+                            <xs:element name="clasificacion" type="xs:string"/>
+                            <xs:element name="duracion" type="xs:string"/>
+                            <xs:element name="genero" type="xs:string"/>
+                            <xs:element name="idioma" type="xs:string"/>
+                            <xs:element name="horarios" type="xs:string"/>
+                            <xs:element name="director" type="xs:string"/>
+                        </xs:sequence>
+                        <xs:attribute name="num" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+        </xs:element>
+        <!-- "cinepolis" -->
+        <xs:element name="cinepolis" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <!-- "pelicula" -->
+              <xs:element name="pelicula" type="autorType" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="titulo" type="xs:string"/>
+                            <xs:element name="clasificacion" type="xs:string"/>
+                            <xs:element name="duracion" type="xs:string"/>
+                            <xs:element name="genero" type="xs:string"/>
+                            <xs:element name="idioma" type="xs:string"/>
+                            <xs:element name="horarios" type="xs:string"/>
+                            <xs:element name="director" type="xs:string"/>
+                        </xs:sequence>
+                        <xs:attribute name="num" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

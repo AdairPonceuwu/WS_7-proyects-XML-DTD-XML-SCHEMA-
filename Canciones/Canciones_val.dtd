@@ -1,0 +1,15 @@
+<!ELEMENT redtube (playlist)>
+<!ELEMENT playlist (cancion+)>
+<!ATTLIST playlist
+    nombre CDATA #REQUIRED
+>
+<!ELEMENT cancion (titulo, cantante, duracion, genero, album, anio)>
+<!ATTLIST cancion
+    num CDATA #REQUIRED
+>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT cantante (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT album (#PCDATA)>
+<!ELEMENT anio (#PCDATA)>

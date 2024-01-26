@@ -1,0 +1,12 @@
+<!ELEMENT cine (cinemex, cinepolis)>
+<!ELEMENT cinemex (pelicula+)>
+<!ELEMENT cinepolis (pelicula+)>
+<!ELEMENT pelicula (titulo, clasificacion, duracion, genero, idioma, horarios, director)>
+<!ATTLIST pelicula num CDATA #REQUIRED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT clasificacion (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT idioma (#PCDATA)>
+<!ELEMENT horarios (#PCDATA)>
+<!ELEMENT director (#PCDATA)>

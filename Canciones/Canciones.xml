@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE redtube SYSTEM "Canciones_val.dtd">   
+
+<redtube xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Canciones_schema.xsd">
+
+    <playlist nombre="Gean">
+
+        <cancion num="1">
+            <titulo>Un nuevo Amor</titulo>
+            <cantante>Tranzas</cantante>
+            <duracion>3:59 min.</duracion>
+            <genero>Pop rock</genero>
+            <album>Tranzas por siempre</album>
+            <anio>2003</anio>
+        </cancion>
+
+        <cancion num="2">
+            <titulo>Un nuevo Amor</titulo>
+            <cantante>Tranzas</cantante>
+            <duracion>3:59 min.</duracion>
+            <genero>Pop rock</genero>
+            <album>Tranzas por siempre</album>
+            <anio>2003</anio>
+        </cancion>
+
+        <cancion num="3">
+            <titulo>Un nuevo Amor</titulo>
+            <cantante>Tranzas</cantante>
+            <duracion>3:59 min.</duracion>
+            <genero>Pop rock</genero>
+            <album>Tranzas por siempre</album>
+            <anio>2003</anio>
+        </cancion>
+
+    </playlist>
+
+</redtube>

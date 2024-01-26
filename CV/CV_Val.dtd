@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT cv (datos_personales, educacion, experiencia_laboral, skills, idioma)>
+<!ELEMENT datos_personales (nombre_completo, direccion, telefono, email, fecha_nacimiento, descripcion)>
+<!ELEMENT nombre_completo (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT fecha_nacimiento (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+    
+<!ELEMENT educacion (datos_preparatoria, datos_universidad)>
+<!ELEMENT datos_preparatoria (nombre_escuela, generacion)>
+<!ELEMENT nombre_escuela (#PCDATA)>
+<!ELEMENT generacion (#PCDATA)>
+<!ELEMENT datos_universidad (nombre_escuela, carrera, matricula)>
+<!ELEMENT carrera (#PCDATA)>
+<!ELEMENT matricula (#PCDATA)>
+
+<!ELEMENT experiencia_laboral (nombre_empresa, lugar, cargo, actividades_realizadas, periodo)>
+<!ELEMENT nombre_empresa EMPTY>
+<!ELEMENT lugar EMPTY>
+<!ELEMENT cargo EMPTY>
+<!ELEMENT actividades_realizadas EMPTY>
+<!ELEMENT periodo EMPTY>
+
+<!ELEMENT skills (nombre_tec, nivel)*>
+<!ELEMENT nombre_tec (#PCDATA)>
+<!ELEMENT nivel (#PCDATA)>
+
+<!ELEMENT idioma (nombre_idioma, nivel)+>
+<!ELEMENT nombre_idioma (#PCDATA)>
+

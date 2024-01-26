@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE biblioteca SYSTEM "biblioteca_val.dtd">
+
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocations="biblioteca_schema.xsd">
+
+  <libro ISBN=0-596-00292-0>
+
+        <autor>
+            <nombre>Elliotte Rusty Harold, W. Scott Means</nombre>
+            <email>elliottscott@oreilly.com/ail</email>
+            <direccion>1005 Gravenstein Highway North, CA 3472 </direccion>
+        </autor>
+
+        <capítulo nombre="Introduccion">
+            <seccion>
+                <titulo>XML Conceps</titulo>
+            </seccion>
+
+            <seccion>
+                <nombre>Introducing XML</nombre>
+                <contenido>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore ma</contenido>
+            </seccion>
+
+        </capitulo>
+  </libro>
+
+  <libro ISBN=0-596-00292-0>
+
+        <autor>
+            <nombre>Elliotte Rusty Harold, W. Scott Means</nombre>
+            <email>elliottscott@oreilly.com/ail</email>
+            <direccion>1005 Gravenstein Highway North, CA 3472 </direccion>
+        </autor>
+
+        <capítulo nombre="Introduccion">
+            <seccion>
+                <titulo>XML Conceps</titulo>
+            </seccion>
+
+            <seccion>
+                <nombre>Introducing XML</nombre>
+                <contenido>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore ma</contenido>
+            </seccion>
+
+        </capitulo>
+  </libro>
+
+  <libro ISBN=0-596-00292-0>
+
+        <autor>
+            <nombre>Elliotte Rusty Harold, W. Scott Means</nombre>
+            <email>elliottscott@oreilly.com/ail</email>
+            <direccion>1005 Gravenstein Highway North, CA 3472 </direccion>
+        </autor>
+
+        <capítulo nombre="Introduccion">
+            <seccion>
+                <titulo>XML Conceps</titulo>
+            </seccion>
+
+            <seccion>
+                <nombre>Introducing XML</nombre>
+                <contenido>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore ma</contenido>
+            </seccion>
+
+        </capitulo>
+  </libro>
+
+</biblioteca>
+

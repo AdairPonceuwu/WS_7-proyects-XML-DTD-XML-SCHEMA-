@@ -1,0 +1,9 @@
+<!ELEMENT root (email+)>
+<!ELEMENT email (head, body)>
+<!ELEMENT head (from, to, subject)>
+<!ELEMENT from (name, adress)>
+<!ELEMENT to (name, adress)>
+<!ELEMENT subject (#PCDATA)>
+<!ELEMENT body (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT adress (#PCDATA)>

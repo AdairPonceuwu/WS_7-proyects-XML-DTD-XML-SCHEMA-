@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE receta SYSTEM "Receta_Val.dtd">
+
+<receta xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Receta_Schema.xsd">
+    
+    <nombre>
+        Licuado de Platano
+    </nombre>
+
+    <descripcion>
+        Un licuado para un buen desayuno antes de la universidad.
+    </descripcion>
+
+    <ingredientes>
+
+        <ingrediente>
+
+            <itema>Platano</itema>
+            <cantidad unidad="1 pza"/>
+
+        </ingrediente>
+
+        <ingrediente>
+            <itema>Leche</itema>
+            <cantidad unidad="1 cup"/>
+        </ingrediente>
+
+        <ingrediente>
+            <itema>Escencia de vainilla</itema>
+            <cantidad unidad="1/2 cucharada"/>
+        </ingrediente>
+
+    </ingredientes>
+
+    <instrucciones>
+        <paso num="1">
+            Ponga el platano pelado y la leche en la licuadora.
+        </paso>
+
+        <paso num="2">
+            Agregue la cucharada de escencia de vainilla y licue todo.
+        </paso>
+
+        <paso num="3">
+            Sirva en su vaso favorito.
+        </paso>
+
+    </instrucciones>
+
+</receta>

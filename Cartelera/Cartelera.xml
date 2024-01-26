@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE biblioteca SYSTEM "Cartelera_Val.dtd">
+
+<cine xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Canciones_Schema.xsd">
+
+    <cinemex>
+        <pelicula num="1">
+            <titulo>Amenaza en lo Profundo</titulo>
+            <clasificacion>B</clasificacion>
+            <duracion>95 min.</duracion>
+            <genero>Acción</genero>
+            <idioma>Español</idioma>
+            <horarios> 01:30 p.m. 03:40 p.m. 05:50 p.m. 08:00 p.m. 10:05 p.m. </horarios>
+            <director>illiam Eubank</director>
+        </pelicula>
+
+        <pelicula num="2">
+            <titulo>Amenaza en lo Profundo</titulo>
+            <clasificacion>B</clasificacion>
+            <duracion>95 min.</duracion>
+            <genero>Acción</genero>
+            <idioma>Español</idioma>
+            <horarios> 01:30 p.m. 03:40 p.m. 05:50 p.m. 08:00 p.m. 10:05 p.m. </horarios>
+            <director>illiam Eubank</director>
+        </pelicula>
+
+        <pelicula num="3">
+            <titulo>Amenaza en lo Profundo</titulo>
+            <clasificacion>B</clasificacion>
+            <duracion>95 min.</duracion>
+            <genero>Acción</genero>
+            <idioma>Español</idioma>
+            <horarios> 01:30 p.m. 03:40 p.m. 05:50 p.m. 08:00 p.m. 10:05 p.m. </horarios>
+            <director>illiam Eubank</director>
+        </pelicula>
+
+    </cinemex>
+
+    <cinepolis>
+        <pelicula num="1">
+            <titulo>Amenaza en lo Profundo</titulo>
+            <clasificacion>B</clasificacion>
+            <duracion>95 min.</duracion>
+            <genero>Acción</genero>
+            <idioma>Español</idioma>
+            <horarios> 01:30 p.m. 03:40 p.m. 05:50 p.m. 08:00 p.m. 10:05 p.m. </horarios>
+            <director>illiam Eubank</director>
+        </pelicula>
+
+        <pelicula num="2">
+            <titulo>Amenaza en lo Profundo</titulo>
+            <clasificacion>B</clasificacion>
+            <duracion>95 min.</duracion>
+            <genero>Acción</genero>
+            <idioma>Español</idioma>
+            <horarios> 01:30 p.m. 03:40 p.m. 05:50 p.m. 08:00 p.m. 10:05 p.m. </horarios>
+            <director>illiam Eubank</director>
+        </pelicula>
+
+        <pelicula num="3">
+            <titulo>Amenaza en lo Profundo</titulo>
+            <clasificacion>B</clasificacion>
+            <duracion>95 min.</duracion>
+            <genero>Acción</genero>
+            <idioma>Español</idioma>
+            <horarios> 01:30 p.m. 03:40 p.m. 05:50 p.m. 08:00 p.m. 10:05 p.m. </horarios>
+            <director>illiam Eubank</director>
+        </pelicula>
+
+    </cinepolis>
+
+
+</cine>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!ELEMENT biblioteca (libro+)>
+<!ELEMENT libro (autor, capitulo+)>
+<!ATTLIST libro ISBN CDATA #REQUIRED>
+<!ELEMENT autor (nombre, email, direccion)>
+<!ELEMENT capítulo (seccion+)>
+<!ATTLIST capítulo nombre CDATA #REQUIRED>
+<!ELEMENT seccion (titulo*, nombre*, contenido*)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT título (#PCDATA)>
+<!ELEMENT contenido (#PCDATA)>

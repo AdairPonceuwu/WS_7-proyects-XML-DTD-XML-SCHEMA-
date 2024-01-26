@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root SYSTEM "Email_Val.dtd">
+
+<root xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Email_Schema.xsd">
+
+    <email num="1">
+        <head>
+
+            <from>
+                <name>Adair Ponce</name>
+                <adress>adair.ponce@alumno.buap.mx</adress>
+            </from>
+
+            <to>
+                <name>An Flores</name>
+                <adress>an@gmail.com</adress>
+            </to>
+
+            <subject>
+                I miss you
+            </subject>
+
+        </head>
+
+        <body>
+            Come back to me please
+        </body>
+
+    </email>
+
+    <email num="2">
+        <head>
+
+            <from>
+                <name>Adair Ponce</name>
+                <adress>adair.ponce@alumno.buap.mx</adress>
+            </from>
+
+            <to>
+                <name>Estefani Ramirez</name>
+                <adress>es@gmail.com</adress>
+            </to>
+
+            <subject>
+                I miss you too
+            </subject>
+
+        </head>
+
+        <body>
+            Come back to me please, ily
+        </body>
+
+    </email>
+
+    <email num="3">
+        <head>
+
+            <from>
+                <name>Adair Ponce</name>
+                <adress>adair.ponce@alumno.buap.mx</adress>
+            </from>
+
+            <to>
+                <name>Diana Hernandez</name>
+                <adress>diana@gmail.com</adress>
+            </to>
+
+            <subject>
+                I miss you more than ever
+            </subject>
+
+        </head>
+
+        <body>
+            Ily 
+        </body>
+
+    </email>
+</root>

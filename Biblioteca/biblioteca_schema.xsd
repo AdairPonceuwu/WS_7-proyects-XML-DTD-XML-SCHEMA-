@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.example.com/biblioteca"
+           xmlns="http://www.example.com/biblioteca"
+           elementFormDefault="qualified">
+
+  <!-- "biblioteca" -->
+  <xs:element name="biblioteca">
+    <xs:complexType>
+      <xs:sequence>
+        <!-- "libro" -->
+        <xs:element name="libro" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <!-- "autor" -->
+              <xs:element name="autor" type="autorType" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="email" type="xs:string"/>
+                            <xs:element name="direccion" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+              <!-- "capitulo" -->
+              <xs:element name="capitulo" type="capituloType" maxOccurs="unbounded"/>
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="titulo" type="xs:string" minOccurs="0"/>
+                        <xs:element name="nombre" type="xs:string" minOccurs="0"/>
+                        <xs:element name="contenido" type="xs:string" minOccurs="0"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:sequence>
+            <xs:attribute name="ISBN" type="xs:string" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

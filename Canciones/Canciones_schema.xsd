@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           targetNamespace="http://www.example.com/redtube"
+           elementFormDefault="qualified">
+
+    <!--"redtube" -->
+    <xs:element name="redtube">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="playlist"/>
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="cancion"  maxOccurs="unbounded"/>
+                                <xs:complexType name="CancionType">
+                                        <xs:sequence>
+                                            <xs:element name="titulo" type="xs:string"/>
+                                            <xs:element name="cantante" type="xs:string"/>
+                                            <xs:element name="duracion" type="xs:string"/>
+                                            <xs:element name="genero" type="xs:string"/>
+                                            <xs:element name="album" type="xs:string"/>
+                                            <xs:element name="anio" type="xs:string"/>
+                                        </xs:sequence>
+                                        <xs:attribute name="num" type="xs:string" use="required"//>
+                                 </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="nombre" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

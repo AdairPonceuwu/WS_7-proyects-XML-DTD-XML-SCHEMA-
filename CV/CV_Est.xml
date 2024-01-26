@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cv SYSTEM "CV_Val.dtd">
+
+<cv xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CV_Schema.xsd">
+
+    <datos_personales>
+        <nombre_completo>Adair Ponce Luna</nombre_completo>
+        <direccion>2DA Privada de la Noria</direccion>
+        <telefono>2226129277</telefono>
+        <email>adair.ponce@alumno.buap.mx</email>
+        <fecha_nacimiento>21/08/02</fecha_nacimiento>
+        <descripcion>Me consiedero un profesional responsable y dedicado, con habilidades demostradas 
+        en la gestión eficaz de tareas y actividades. Perseverante y tolerante, abordo 
+        desafíos con calma y adaptabilidad. Siempre listo para nuevas experiencias, 
+        me destaco por aprender rápidamente y contribuir de manera positiva en entornos 
+        laborales.</descripcion>
+    </datos_personales>
+
+    <educacion>
+        <datos_preparatoria>
+            <nombre_escuela>CONALEP Puebla III</nombre_escuela>
+            <generacion>2017-2020</generacion>
+        </datos_preparatoria>
+
+        <datos_universidad>
+            <nombre_escuela>BUAP</nombre_escuela>
+            <carrera>Lic. en Ing. en Ciencias de la Computacion</carrera>
+            <matricula>202051992</matricula>
+        </datos_universidad>
+    </educacion>
+
+    <experiencia_laboral>
+        <nombre_empresa></nombre_empresa>
+        <lugar></lugar>
+        <cargo></cargo>
+        <actividades_realizadas></actividades_realizadas>
+        <periodo></periodo> 
+    </experiencia_laboral>
+
+    <skills>
+        <nombre_tec>Python3</nombre_tec>
+        <nivel>Intermedio</nivel>
+        <nombre_tec>Java</nombre_tec>
+        <nivel>Basico</nivel>
+        <nombre_tec>SQL</nombre_tec>
+        <nivel>Intermedio</nivel>
+        <nombre_tec>C</nombre_tec>
+        <nivel>Basico</nivel>
+    </skills>
+
+    <idioma>
+        <nombre_idioma>Español</nombre_idioma>
+        <nivel>Nativo</nivel>
+        <nombre_idioma>Inglés</nombre_idioma>
+        <nivel>B2</nivel>
+    </idioma>
+
+</cv>
