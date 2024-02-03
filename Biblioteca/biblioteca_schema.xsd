@@ -13,7 +13,7 @@
           <xs:complexType>
             <xs:sequence>
               <!-- "autor" -->
-              <xs:element name="autor" type="autorType" minOccurs="0">
+              <xs:element name="autor" minOccurs="0">
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="nombre" type="xs:string"/>
@@ -23,14 +23,15 @@
                     </xs:complexType>
                 </xs:element>
               <!-- "capitulo" -->
-              <xs:element name="capitulo" type="capituloType" maxOccurs="unbounded"/>
+              <xs:element name="capítulo" maxOccurs="unbounded">
                 <xs:complexType>
                     <xs:sequence>
-                        <xs:element name="titulo" type="xs:string" minOccurs="0"/>
-                        <xs:element name="nombre" type="xs:string" minOccurs="0"/>
-                        <xs:element name="contenido" type="xs:string" minOccurs="0"/>
+                      <xs:element name="titulo" type="xs:string" minOccurs="0"/>
+                      <xs:element name="nombre" type="xs:string" minOccurs="0"/>
+                      <xs:element name="contenido" type="xs:string" minOccurs="0"/>
                     </xs:sequence>
                 </xs:complexType>
+              </xs:element>
             </xs:sequence>
             <xs:attribute name="ISBN" type="xs:string" use="required"/>
           </xs:complexType>

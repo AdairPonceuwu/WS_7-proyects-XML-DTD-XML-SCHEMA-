@@ -10,7 +10,7 @@
           <xs:complexType>
             <xs:sequence>
               <!-- "pelicula" -->
-              <xs:element name="pelicula" type="autorType" minOccurs="0">
+              <xs:element name="pelicula" minOccurs="0">
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="titulo" type="xs:string"/>
@@ -24,13 +24,15 @@
                         <xs:attribute name="num" type="xs:string" use="required"/>
                     </xs:complexType>
                 </xs:element>
+              </xs:sequence>
+          </xs:complexType>
         </xs:element>
         <!-- "cinepolis" -->
         <xs:element name="cinepolis" maxOccurs="1">
           <xs:complexType>
             <xs:sequence>
               <!-- "pelicula" -->
-              <xs:element name="pelicula" type="autorType" minOccurs="0">
+                 <xs:element name="pelicula" minOccurs="0">
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="titulo" type="xs:string"/>
@@ -44,6 +46,9 @@
                         <xs:attribute name="num" type="xs:string" use="required"/>
                     </xs:complexType>
                 </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
       </xs:sequence>
     </xs:complexType>
   </xs:element>

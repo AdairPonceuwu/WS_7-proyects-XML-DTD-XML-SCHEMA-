@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE biblioteca SYSTEM "biblioteca_val.dtd">
 
 <biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocations="biblioteca_schema.xsd">
 
-  <libro ISBN=0-596-00292-0>
+  <libro ISBN="0-596-00292-0">
 
         <autor>
             <nombre>Elliotte Rusty Harold, W. Scott Means</nombre>
@@ -11,7 +11,7 @@
             <direccion>1005 Gravenstein Highway North, CA 3472 </direccion>
         </autor>
 
-        <capítulo nombre="Introduccion">
+        <capitulo nombre="Introduccion">
             <seccion>
                 <titulo>XML Conceps</titulo>
             </seccion>
@@ -24,7 +24,7 @@
         </capitulo>
   </libro>
 
-  <libro ISBN=0-596-00292-0>
+  <libro ISBN="0-596-00292-0">
 
         <autor>
             <nombre>Elliotte Rusty Harold, W. Scott Means</nombre>
@@ -32,7 +32,7 @@
             <direccion>1005 Gravenstein Highway North, CA 3472 </direccion>
         </autor>
 
-        <capítulo nombre="Introduccion">
+        <capitulo nombre="Introduccion">
             <seccion>
                 <titulo>XML Conceps</titulo>
             </seccion>
@@ -45,7 +45,7 @@
         </capitulo>
   </libro>
 
-  <libro ISBN=0-596-00292-0>
+  <libro ISBN="0-596-00292-0">
 
         <autor>
             <nombre>Elliotte Rusty Harold, W. Scott Means</nombre>
@@ -53,7 +53,7 @@
             <direccion>1005 Gravenstein Highway North, CA 3472 </direccion>
         </autor>
 
-        <capítulo nombre="Introduccion">
+        <capitulo nombre="Introduccion">
             <seccion>
                 <titulo>XML Conceps</titulo>
             </seccion>
@@ -67,4 +67,3 @@
   </libro>
 
 </biblioteca>
-

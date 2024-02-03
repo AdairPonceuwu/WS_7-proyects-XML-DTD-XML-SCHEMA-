@@ -1,7 +1,7 @@
-    <!ELEMENT arbol_genealogico (familia+)>
-    <!ELEMENT familia (familiar+)>
-    <!ELEMENT familiar (familiar*)>
-    <!ATTLIST familiar
-        nombre CDATA #REQUIRED
-        relacion_mia CDATA #IMPLIED
-    >
+<!ELEMENT arbol_genealogico (familia+)>
+<!ELEMENT familia (familiar+)>
+<!ELEMENT familiar (familiar*)>
+<!ATTLIST familiar
+    nombre CDATA #REQUIRED
+    relacion_mia CDATA #IMPLIED
+>

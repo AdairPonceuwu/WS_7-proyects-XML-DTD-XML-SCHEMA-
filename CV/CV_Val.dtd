@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!ELEMENT cv (datos_personales, educacion, experiencia_laboral, skills, idioma)>
 <!ELEMENT datos_personales (nombre_completo, direccion, telefono, email, fecha_nacimiento, descripcion)>
 <!ELEMENT nombre_completo (#PCDATA)>
@@ -29,4 +28,3 @@
 
 <!ELEMENT idioma (nombre_idioma, nivel)+>
 <!ELEMENT nombre_idioma (#PCDATA)>
-

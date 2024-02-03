@@ -31,7 +31,7 @@
                                 </xs:complexType>
                             </xs:element>
                             <xs:element name="body" type="xs:string"/>
-                        <xs:sequence>
+                        </xs:sequence>
                         <xs:attribute name="nombre" type="xs:string" use="required"/>
                     </xs:complexType>
                 </xs:element>

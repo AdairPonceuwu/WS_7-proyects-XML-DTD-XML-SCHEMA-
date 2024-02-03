@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!DOCTYPE biblioteca SYSTEM "Cartelera_Val.dtd">
+<!DOCTYPE cine SYSTEM "Cartelera_Val.dtd">
 
-<cine xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Canciones_Schema.xsd">
+<cine xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Cartelera_Schema.xsd">
 
     <cinemex>
         <pelicula num="1">

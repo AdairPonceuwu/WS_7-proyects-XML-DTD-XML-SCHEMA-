@@ -6,30 +6,30 @@
     <playlist nombre="Gean">
 
         <cancion num="1">
-            <titulo>Un nuevo Amor</titulo>
+            <titulo>Siempre tuyo</titulo>
             <cantante>Tranzas</cantante>
-            <duracion>3:59 min.</duracion>
-            <genero>Pop rock</genero>
+            <duracion>4:00 min.</duracion>
+            <genero>Pop</genero>
             <album>Tranzas por siempre</album>
             <anio>2003</anio>
         </cancion>
 
         <cancion num="2">
-            <titulo>Un nuevo Amor</titulo>
-            <cantante>Tranzas</cantante>
+            <titulo>Dos mundos</titulo>
+            <cantante>Enjambre</cantante>
             <duracion>3:59 min.</duracion>
             <genero>Pop rock</genero>
-            <album>Tranzas por siempre</album>
-            <anio>2003</anio>
+            <album>IDK</album>
+            <anio>2009</anio>
         </cancion>
 
         <cancion num="3">
-            <titulo>Un nuevo Amor</titulo>
-            <cantante>Tranzas</cantante>
+            <titulo>Señales Luminosas</titulo>
+            <cantante>Gustavo Cerati</cantante>
             <duracion>3:59 min.</duracion>
             <genero>Pop rock</genero>
-            <album>Tranzas por siempre</album>
-            <anio>2003</anio>
+            <album>Siempre Es Hoy</album>
+            <anio>2002</anio>
         </cancion>
 
     </playlist>
