@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE biblioteca SYSTEM "biblioteca_val.dtd">
 
-<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocations="biblioteca_schema.xsd">
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:NamespaceSchemaLocations="biblioteca_schema.xsd">
 
   <libro ISBN="0-596-00292-0">
 
         <autor>
-            <nombre>Elliotte Rusty Harold, W. Scott Means</nombre>
-            <email>elliottscott@oreilly.com/ail</email>
-            <direccion>1005 Gravenstein Highway North, CA 3472 </direccion>
+            <nombre>Adair Ponce</nombre>
+            <email>nosequien@oreilly.com/ail</email>
+            <direccion>Avenida del Conocimiento </direccion>
         </autor>
 
-        <capitulo nombre="Introduccion">
+        <capitulo nombre="Bienvenida">
             <seccion>
-                <titulo>XML Conceps</titulo>
+                <titulo>Introduccion a los compiladores</titulo>
             </seccion>
 
             <seccion>
-                <nombre>Introducing XML</nombre>
+                <nombre>¿Qué es un compilador?</nombre>
                 <contenido>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore ma</contenido>
             </seccion>
 
@@ -48,18 +48,18 @@
   <libro ISBN="0-596-00292-0">
 
         <autor>
-            <nombre>Elliotte Rusty Harold, W. Scott Means</nombre>
-            <email>elliottscott@oreilly.com/ail</email>
-            <direccion>1005 Gravenstein Highway North, CA 3472 </direccion>
+            <nombre>Ana Perez</nombre>
+            <email>anperez@oreilly.com/ail</email>
+            <direccion>Avenida de las matematicas</direccion>
         </autor>
 
-        <capitulo nombre="Introduccion">
+        <capitulo nombre="Prologo">
             <seccion>
-                <titulo>XML Conceps</titulo>
+                <titulo>Geofisica para novatos</titulo>
             </seccion>
 
             <seccion>
-                <nombre>Introducing XML</nombre>
+                <nombre>Geofisica</nombre>
                 <contenido>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore ma</contenido>
             </seccion>
 

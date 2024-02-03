@@ -1,4 +1,6 @@
 <!ELEMENT redtube (playlist)>
+<!ATTLIST redtube xmlns:xsi CDATA #REQUIRED>
+<!ATTLIST redtube xsi:NamespaceSchemaLocation CDATA #REQUIRED>
 <!ELEMENT playlist (cancion+)>
 <!ATTLIST playlist
     nombre CDATA #REQUIRED

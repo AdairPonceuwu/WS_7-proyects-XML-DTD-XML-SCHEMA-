@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE root SYSTEM "Email_Val.dtd">
 
-<root xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Email_Schema.xsd">
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:NamespaceSchemaLocation="Email_Schema.xsd">
 
     <email num="1">
         <head>

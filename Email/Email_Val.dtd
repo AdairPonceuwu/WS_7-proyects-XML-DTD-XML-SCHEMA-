@@ -1,5 +1,8 @@
 <!ELEMENT root (email+)>
+<!ATTLIST root xmlns:xsi CDATA #REQUIRED>
+<!ATTLIST root xsi:NamespaceSchemaLocation CDATA #REQUIRED>
 <!ELEMENT email (head, body)>
+<!ATTLIST email num  CDATA #REQUIRED>
 <!ELEMENT head (from, to, subject)>
 <!ELEMENT from (name, adress)>
 <!ELEMENT to (name, adress)>

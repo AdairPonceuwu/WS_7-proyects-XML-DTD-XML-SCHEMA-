@@ -1,4 +1,6 @@
 <!ELEMENT receta (nombre, descripcion, ingredientes, instrucciones)>
+<!ATTLIST receta xmlns:xsi CDATA #REQUIRED>
+<!ATTLIST receta xsi:NamespaceSchemaLocation CDATA #REQUIRED>
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT descripcion (#PCDATA)>
 <!ELEMENT ingredientes (ingrediente+)>

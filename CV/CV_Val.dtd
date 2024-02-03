@@ -1,4 +1,6 @@
 <!ELEMENT cv (datos_personales, educacion, experiencia_laboral, skills, idioma)>
+<!ATTLIST cv xmlns:xsi CDATA #REQUIRED>
+<!ATTLIST cv xsi:NamespaceSchemaLocation CDATA #REQUIRED>
 <!ELEMENT datos_personales (nombre_completo, direccion, telefono, email, fecha_nacimiento, descripcion)>
 <!ELEMENT nombre_completo (#PCDATA)>
 <!ELEMENT direccion (#PCDATA)>

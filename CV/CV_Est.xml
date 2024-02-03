@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE cv SYSTEM "CV_Val.dtd">
 
-<cv xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CV_Schema.xsd">
+<cv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:NamespaceSchemaLocation="CV_Schema.xsd">
 
     <datos_personales>
         <nombre_completo>Adair Ponce Luna</nombre_completo>

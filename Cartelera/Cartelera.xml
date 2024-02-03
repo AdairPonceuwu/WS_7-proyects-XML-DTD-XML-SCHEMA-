@@ -1,70 +1,70 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE cine SYSTEM "Cartelera_Val.dtd">
 
-<cine xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Cartelera_Schema.xsd">
+<cine xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:NamespaceSchemaLocation="Cartelera_Schema.xsd">
 
     <cinemex>
         <pelicula num="1">
-            <titulo>Amenaza en lo Profundo</titulo>
+            <titulo>About time</titulo>
             <clasificacion>B</clasificacion>
-            <duracion>95 min.</duracion>
-            <genero>Acción</genero>
+            <duracion>123 min</duracion>
+            <genero>Romance</genero>
             <idioma>Español</idioma>
             <horarios> 01:30 p.m. 03:40 p.m. 05:50 p.m. 08:00 p.m. 10:05 p.m. </horarios>
-            <director>illiam Eubank</director>
+            <director>Richard Curtis</director>
         </pelicula>
 
         <pelicula num="2">
-            <titulo>Amenaza en lo Profundo</titulo>
+            <titulo>About time</titulo>
             <clasificacion>B</clasificacion>
-            <duracion>95 min.</duracion>
-            <genero>Acción</genero>
+            <duracion>123 min</duracion>
+            <genero>Romance</genero>
             <idioma>Español</idioma>
             <horarios> 01:30 p.m. 03:40 p.m. 05:50 p.m. 08:00 p.m. 10:05 p.m. </horarios>
-            <director>illiam Eubank</director>
+            <director>Richard Curtis</director>
         </pelicula>
 
         <pelicula num="3">
-            <titulo>Amenaza en lo Profundo</titulo>
+            <titulo>About time</titulo>
             <clasificacion>B</clasificacion>
-            <duracion>95 min.</duracion>
-            <genero>Acción</genero>
+            <duracion>123 min</duracion>
+            <genero>Romance</genero>
             <idioma>Español</idioma>
             <horarios> 01:30 p.m. 03:40 p.m. 05:50 p.m. 08:00 p.m. 10:05 p.m. </horarios>
-            <director>illiam Eubank</director>
+            <director>Richard Curtis</director>
         </pelicula>
 
     </cinemex>
 
     <cinepolis>
         <pelicula num="1">
-            <titulo>Amenaza en lo Profundo</titulo>
+            <titulo>About time</titulo>
             <clasificacion>B</clasificacion>
-            <duracion>95 min.</duracion>
-            <genero>Acción</genero>
+            <duracion>123 min</duracion>
+            <genero>Romance</genero>
             <idioma>Español</idioma>
             <horarios> 01:30 p.m. 03:40 p.m. 05:50 p.m. 08:00 p.m. 10:05 p.m. </horarios>
-            <director>illiam Eubank</director>
+            <director>Richard Curtis</director>
         </pelicula>
 
         <pelicula num="2">
-            <titulo>Amenaza en lo Profundo</titulo>
+            <titulo>About time</titulo>
             <clasificacion>B</clasificacion>
-            <duracion>95 min.</duracion>
-            <genero>Acción</genero>
+            <duracion>123 min</duracion>
+            <genero>Romance</genero>
             <idioma>Español</idioma>
             <horarios> 01:30 p.m. 03:40 p.m. 05:50 p.m. 08:00 p.m. 10:05 p.m. </horarios>
-            <director>illiam Eubank</director>
+            <director>Richard Curtis</director>
         </pelicula>
 
         <pelicula num="3">
-            <titulo>Amenaza en lo Profundo</titulo>
+            <titulo>About time</titulo>
             <clasificacion>B</clasificacion>
-            <duracion>95 min.</duracion>
-            <genero>Acción</genero>
+            <duracion>123 min</duracion>
+            <genero>Romance</genero>
             <idioma>Español</idioma>
             <horarios> 01:30 p.m. 03:40 p.m. 05:50 p.m. 08:00 p.m. 10:05 p.m. </horarios>
-            <director>illiam Eubank</director>
+            <director>Richard Curtis</director>
         </pelicula>
 
     </cinepolis>
