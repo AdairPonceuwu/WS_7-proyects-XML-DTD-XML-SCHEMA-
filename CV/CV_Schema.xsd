@@ -60,26 +60,39 @@
                     </xs:complexType>
                 </xs:element>
 
-                <!--"skills"-->
+                <!-- Definición del elemento skills -->
                 <xs:element name="skills">
                     <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="tec" minOccurs="1" maxOccurs="unbounded">
+                        <xs:complexType>
                             <xs:sequence>
-                                <xs:element name="nombre_tec" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
-                                <xs:element name="nivel" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+                            <xs:element name="nombre_tec" type="xs:string"/>
+                            <xs:element name="nivel_tec" type="xs:string"/>
                             </xs:sequence>
-                    </xs:complexType>
-                </xs:element>
-                
-                <!--"Idioma"-->
-                <xs:element name="idioma">
-                    <xs:complexType>
-                            <xs:sequence>
-                                <xs:element name="nombre_idioma" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
-                                <xs:element name="nivel" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
-                            </xs:sequence>
+                            <xs:attribute name="num" type="xs:integer" use="required"/>
+                        </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
                     </xs:complexType>
                 </xs:element>
 
+                <!-- Definición del elemento idioma -->
+                <xs:element name="idioma">
+                    <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="idiom" minOccurs="1" maxOccurs="unbounded">
+                        <xs:complexType>
+                            <xs:sequence>
+                            <xs:element name="nombre_idioma" type="xs:string"/>
+                            <xs:element name="nivel_idioma" type="xs:string"/>
+                            </xs:sequence>
+                            <xs:attribute name="num" type="xs:integer" use="required"/>
+                        </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
             </xs:sequence>
         </xs:complexType> 
     </xs:element>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE redtube SYSTEM "Canciones_val.dtd">   
 
-<redtube xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:NamespaceSchemaLocation="Canciones_schema.xsd">
+<redtube xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Canciones_schema.xsd">
 
     <playlist nombre="Gean">
 

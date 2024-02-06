@@ -1,4 +1,6 @@
 <!ELEMENT arbol_genealogico (familia+)>
+<!ATTLIST arbol_genealogico xmlns:xsi CDATA #REQUIRED>
+<!ATTLIST arbol_genealogico xsi:noNamespaceSchemaLocation CDATA #REQUIRED>
 <!ELEMENT familia (familiar+)>
 <!ELEMENT familiar (familiar*)>
 <!ATTLIST familiar

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- "arbol_genealogico" -->
+  <xs:element name="arbol_genealogico">
+    <xs:complexType>
+      <xs:sequence>
+            <!-- "familia" -->
+            <xs:element name="familia" minOccurs="1" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="familiar" maxOccurs="unbounded">
+                            <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="familiar" minOccurs="0" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                    <xs:element name="familiar" minOccurs="0" maxOccurs="unbounded">
+                                        <xs:complexType>
+                                        <xs:sequence>
+                                        </xs:sequence>
+                                        <xs:attribute name="nombre" type="xs:string" use="required"/>
+                                        <xs:attribute name="relacion_mia" type="xs:string" use="required"/>
+                                        </xs:complexType>
+                                    </xs:element>
+                                    <!-- Definición de los atributos -->
+                                    </xs:sequence>
+                                    <xs:attribute name="nombre" type="xs:string" use="required"/>
+                                    <xs:attribute name="relacion_mia" type="xs:string" use="required"/>
+                                </xs:complexType>
+                                </xs:element>
+                            </xs:sequence>
+                            <!-- Definición de los atributos -->
+                            <xs:attribute name="nombre" type="xs:string" use="required"/>
+                            <xs:attribute name="relacion_mia" type="xs:string" use="required"/>
+                            </xs:complexType>
+                      </xs:element>
+                    </xs:sequence>
+                  </xs:complexType>
+            </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

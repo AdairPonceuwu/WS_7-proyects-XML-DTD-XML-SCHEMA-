@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE biblioteca SYSTEM "biblioteca_val.dtd">
 
-<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:NamespaceSchemaLocations="biblioteca_schema.xsd">
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.com/biblioteca biblioteca_schema.xsd">
 
   <libro ISBN="0-596-00292-0">
 

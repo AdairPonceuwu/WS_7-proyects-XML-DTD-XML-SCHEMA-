@@ -1,6 +1,6 @@
 <!ELEMENT biblioteca (libro+)>
 <!ATTLIST biblioteca xmlns:xsi CDATA #REQUIRED>
-<!ATTLIST biblioteca xsi:NamespaceSchemaLocations CDATA #REQUIRED>
+<!ATTLIST biblioteca xsi:schemaLocation CDATA #REQUIRED>
 <!ELEMENT libro (autor, capitulo+)>
 <!ATTLIST libro ISBN CDATA #REQUIRED>
 <!ELEMENT autor (nombre, email, direccion)>

@@ -1,6 +1,6 @@
 <!ELEMENT cine (cinemex, cinepolis)>
 <!ATTLIST cine xmlns:xsi CDATA #REQUIRED>
-<!ATTLIST cine xsi:NamespaceSchemaLocation CDATA #REQUIRED>
+<!ATTLIST cine xsi:noNamespaceSchemaLocation CDATA #REQUIRED>
 <!ELEMENT cinemex (pelicula+)>
 <!ELEMENT cinepolis (pelicula+)>
 <!ELEMENT pelicula (titulo, clasificacion, duracion, genero, idioma, horarios, director)>

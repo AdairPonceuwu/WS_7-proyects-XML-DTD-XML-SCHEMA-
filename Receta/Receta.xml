@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE receta SYSTEM "Receta_Val.dtd">
 
-<receta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:NamespaceSchemaLocation="Receta_Schema.xsd">
+<receta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Receta_Schema.xsd">
     
     <nombre>
         Licuado de Platano
@@ -15,18 +15,18 @@
 
         <ingrediente>
 
-            <itema>Platano</itema>
+            <item>Platano</item>
             <cantidad unidad="1 pza"/>
 
         </ingrediente>
 
         <ingrediente>
-            <itema>Leche</itema>
+            <item>Leche</item>
             <cantidad unidad="1 cup"/>
         </ingrediente>
 
         <ingrediente>
-            <itema>Escencia de vainilla</itema>
+            <item>Escencia de vainilla</item>
             <cantidad unidad="1/2 cucharada"/>
         </ingrediente>
 

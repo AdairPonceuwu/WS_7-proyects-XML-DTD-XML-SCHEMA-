@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE arbol_genealogico SYSTEM "familia_val.dtd">
-<arbol_genealogico >
+<arbol_genealogico xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="familia_schema.xsd">
     <familia>
         <familiar nombre="Ismael Ponce" relacion_mia="Abuelo">
             <familiar nombre="Ismael Ponce" relacion_mia="Padre">
-                <familiar nombre="Adair Ponce" relacion_mia="Hijo"/>
+                <familiar nombre="Adair Ponce" relacion_mia="Yo"/>
                 <familiar nombre="Tzuriel Ponce" relacion_mia="Hermano"/>
             </familiar>
             <familiar nombre="Gustavo Ponce" relacion_mia="Tío"/>
@@ -21,7 +21,7 @@
             <familiar nombre="Araceli Luna" relacion_mia="Tía"/>
             <familiar nombre="Alfonso Luna" relacion_mia="Tío"/>
         </familiar>
-        <familiar nombre="Emilia Luna">
+        <familiar nombre="Emilia Luna" relacion_mia="Abuela">
             <familiar nombre="Elena Luna" relacion_mia="Madre"/>
             <familiar nombre="Araceli Luna" relacion_mia="Tía"/>
             <familiar nombre="Alfonso Luna" relacion_mia="Tío"/>

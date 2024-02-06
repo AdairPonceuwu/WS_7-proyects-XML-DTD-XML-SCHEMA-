@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE cv SYSTEM "CV_Val.dtd">
 
-<cv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:NamespaceSchemaLocation="CV_Schema.xsd">
+<cv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CV_Schema.xsd">
 
     <datos_personales>
         <nombre_completo>Adair Ponce Luna</nombre_completo>
@@ -38,21 +38,29 @@
     </experiencia_laboral>
 
     <skills>
-        <nombre_tec>Python3</nombre_tec>
-        <nivel>Intermedio</nivel>
-        <nombre_tec>Java</nombre_tec>
-        <nivel>Basico</nivel>
-        <nombre_tec>SQL</nombre_tec>
-        <nivel>Intermedio</nivel>
-        <nombre_tec>C</nombre_tec>
-        <nivel>Basico</nivel>
+        <tec num="1">
+            <nombre_tec>Python3</nombre_tec>
+            <nivel_tec>Intermedio</nivel_tec>
+        </tec>
+
+        <tec num="2">
+            <nombre_tec>SQL</nombre_tec>
+            <nivel_tec>Intermedio</nivel_tec>
+        </tec>
     </skills>
 
     <idioma>
-        <nombre_idioma>Español</nombre_idioma>
-        <nivel>Nativo</nivel>
-        <nombre_idioma>Inglés</nombre_idioma>
-        <nivel>B2</nivel>
+        <idiom num="1">
+            <nombre_idioma>Español</nombre_idioma>
+            <nivel_idioma>Nativo</nivel_idioma>
+        </idiom>
+
+        <idiom num="2">
+            <nombre_idioma>Inglés</nombre_idioma>
+            <nivel_idioma>B2</nivel_idioma>
+        </idiom>
+
+
     </idioma>
 
 </cv>
